@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E3B06F917F33A9B00D8866C /* Desert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3B06F817F33A9B00D8866C /* Desert.jpg */; };
+		F23C135917D5AB620037517E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23C135817D5AB620037517E /* UIKit.framework */; };
+		F23C135B17D5AB620037517E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23C135A17D5AB620037517E /* Foundation.framework */; };
+		F23C135D17D5AB620037517E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23C135C17D5AB620037517E /* CoreGraphics.framework */; };
+		F23C136317D5AB620037517E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F23C136117D5AB620037517E /* InfoPlist.strings */; };
+		F23C136517D5AB620037517E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C136417D5AB620037517E /* main.m */; };
+		F23C136917D5AB620037517E /* IOS_MSEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C136817D5AB620037517E /* IOS_MSEAppDelegate.m */; };
+		F23C136C17D5AB620037517E /* IOS_MSEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C136B17D5AB620037517E /* IOS_MSEViewController.m */; };
+		F23C136F17D5AB620037517E /* IOS_MSEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23C136D17D5AB620037517E /* IOS_MSEViewController.xib */; };
+		F23C137817D5B10C0037517E /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C137617D5B10C0037517E /* WelcomeViewController.m */; };
+		F23C137917D5B10C0037517E /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23C137717D5B10C0037517E /* WelcomeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E3B06F817F33A9B00D8866C /* Desert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Desert.jpg; path = ../../Desert.jpg; sourceTree = "<group>"; };
+		F23C135417D5AB620037517E /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23C135817D5AB620037517E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F23C135A17D5AB620037517E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F23C135C17D5AB620037517E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F23C136017D5AB620037517E /* Login-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Login-Info.plist"; sourceTree = "<group>"; };
+		F23C136217D5AB620037517E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F23C136417D5AB620037517E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F23C136617D5AB620037517E /* Login-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Login-Prefix.pch"; sourceTree = "<group>"; };
+		F23C136717D5AB620037517E /* IOS_MSEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOS_MSEAppDelegate.h; sourceTree = "<group>"; };
+		F23C136817D5AB620037517E /* IOS_MSEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_MSEAppDelegate.m; sourceTree = "<group>"; };
+		F23C136A17D5AB620037517E /* IOS_MSEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOS_MSEViewController.h; sourceTree = "<group>"; };
+		F23C136B17D5AB620037517E /* IOS_MSEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_MSEViewController.m; sourceTree = "<group>"; };
+		F23C136E17D5AB620037517E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IOS_MSEViewController.xib; sourceTree = "<group>"; };
+		F23C137517D5B10C0037517E /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		F23C137617D5B10C0037517E /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		F23C137717D5B10C0037517E /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F23C135117D5AB620037517E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23C135917D5AB620037517E /* UIKit.framework in Frameworks */,
+				F23C135B17D5AB620037517E /* Foundation.framework in Frameworks */,
+				F23C135D17D5AB620037517E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F23C134917D5AB620037517E = {
+			isa = PBXGroup;
+			children = (
+				F23C135E17D5AB620037517E /* Login */,
+				F23C135717D5AB620037517E /* Frameworks */,
+				F23C135517D5AB620037517E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F23C135517D5AB620037517E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F23C135417D5AB620037517E /* Login.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F23C135717D5AB620037517E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F23C135817D5AB620037517E /* UIKit.framework */,
+				F23C135A17D5AB620037517E /* Foundation.framework */,
+				F23C135C17D5AB620037517E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F23C135E17D5AB620037517E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F23C136717D5AB620037517E /* IOS_MSEAppDelegate.h */,
+				F23C136817D5AB620037517E /* IOS_MSEAppDelegate.m */,
+				F23C136A17D5AB620037517E /* IOS_MSEViewController.h */,
+				F23C136B17D5AB620037517E /* IOS_MSEViewController.m */,
+				F23C136D17D5AB620037517E /* IOS_MSEViewController.xib */,
+				F23C135F17D5AB620037517E /* Supporting Files */,
+				F23C137517D5B10C0037517E /* WelcomeViewController.h */,
+				F23C137617D5B10C0037517E /* WelcomeViewController.m */,
+				F23C137717D5B10C0037517E /* WelcomeViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F23C135F17D5AB620037517E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E3B06F817F33A9B00D8866C /* Desert.jpg */,
+				F23C136017D5AB620037517E /* Login-Info.plist */,
+				F23C136117D5AB620037517E /* InfoPlist.strings */,
+				F23C136417D5AB620037517E /* main.m */,
+				F23C136617D5AB620037517E /* Login-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F23C135317D5AB620037517E /* Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23C137217D5AB620037517E /* Build configuration list for PBXNativeTarget "Login" */;
+			buildPhases = (
+				F23C135017D5AB620037517E /* Sources */,
+				F23C135117D5AB620037517E /* Frameworks */,
+				F23C135217D5AB620037517E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Login;
+			productName = Login;
+			productReference = F23C135417D5AB620037517E /* Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F23C134B17D5AB620037517E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F23C134E17D5AB620037517E /* Build configuration list for PBXProject "Login" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F23C134917D5AB620037517E;
+			productRefGroup = F23C135517D5AB620037517E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F23C135317D5AB620037517E /* Login */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F23C135217D5AB620037517E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23C136317D5AB620037517E /* InfoPlist.strings in Resources */,
+				F23C136F17D5AB620037517E /* IOS_MSEViewController.xib in Resources */,
+				F23C137917D5B10C0037517E /* WelcomeViewController.xib in Resources */,
+				5E3B06F917F33A9B00D8866C /* Desert.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F23C135017D5AB620037517E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23C136517D5AB620037517E /* main.m in Sources */,
+				F23C136917D5AB620037517E /* IOS_MSEAppDelegate.m in Sources */,
+				F23C136C17D5AB620037517E /* IOS_MSEViewController.m in Sources */,
+				F23C137817D5B10C0037517E /* WelcomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F23C136117D5AB620037517E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F23C136217D5AB620037517E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F23C136D17D5AB620037517E /* IOS_MSEViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F23C136E17D5AB620037517E /* en */,
+			);
+			name = IOS_MSEViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F23C137017D5AB620037517E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F23C137117D5AB620037517E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F23C137317D5AB620037517E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Login/Login-Prefix.pch";
+				INFOPLIST_FILE = "Login/Login-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F23C137417D5AB620037517E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Login/Login-Prefix.pch";
+				INFOPLIST_FILE = "Login/Login-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F23C134E17D5AB620037517E /* Build configuration list for PBXProject "Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23C137017D5AB620037517E /* Debug */,
+				F23C137117D5AB620037517E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23C137217D5AB620037517E /* Build configuration list for PBXNativeTarget "Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23C137317D5AB620037517E /* Debug */,
+				F23C137417D5AB620037517E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F23C134B17D5AB620037517E /* Project object */;
+}
