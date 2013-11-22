@@ -1,0 +1,7 @@
+Example for an application simulating context-aware computing:
+---------------------------------------------------------------------
+
+Application Name: SatNav a GoogleMap API application.
+
+Justification      :  In a Satellite Navigation System (SatNav), the current location is the primary contextual parameter that is used to automatically adjust the visualization (e.g. map, arrows, directions…) to the user’s current location. An example is shown in Figure 14.5. However, looking at current commercial systems, much more context information is used and much of visualization has been changed. In addition to the current GPS position, contextual parameters may include the time of day, light conditions, the traffic situation on the calculated route or the user’s preferred places. Beyond the visualization and whether or not to switch on the backlight, the calculated route can be influenced by context.
+Example operation  :  To avoid potentially busy streets at that time of day.

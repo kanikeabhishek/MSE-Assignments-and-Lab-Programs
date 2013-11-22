@@ -1,0 +1,40 @@
+Dalvik Virtual Machine Instructions
+____________________________________			   
+
+1. 
+	a) Instruction Name : Move the contents of one register carrying object type to another.
+	b) Syntax           : move-object vi, vj
+	c) Example 	    : move-object v0,v1 (v1 object instance to v0).
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+2. 
+	a) Instruction Name : Move the given literal value into the register.
+	b) Syntax           : const vAA, #+BBBBBBBB
+	c) Example 	    : const v0, #+444 (moves the hex code value into dalvik register; v0 = 1092 in decimal format)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+3. 
+	a) Instruction Name : Adds the the value of two registers and places the sum into third register.
+	b) Syntax           : add-int d0,so,s1
+	c) Example 	    : add-int v0,v1,v2 (v0 = v1+v2)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+4. 
+	a) Instruction Name : Jumps to the specified address[Instruction step address].
+	b) Syntax           : goto vA
+	c) Example 	    : 
+			      0000: const v1,#+2
+			      0001: move v0,v1
+			      0002: add-int v2,v0,v1
+			      0003: goto 0001 (loops back to 2nd instruction inorder)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+5. 
+	a) Instruction Name : Branches to the specified instruction step adrress depending on the comparison condition.
+	b) Syntax           : if-test vA, vB, +CCCC
+	c) Example 	    : if-ge v0,v1, +0110 (Branches down by 0110 instructions if the ge => greater than equal condition is satisfied).
+			      test can have : eq,ne,lt,ge,gt,le
+						
+____________________________________________________________________________________________________________________________________________

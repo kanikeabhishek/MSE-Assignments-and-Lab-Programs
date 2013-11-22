@@ -1,0 +1,29 @@
+Differences between Mobile and Cloud computing:
+---------------------------------------------------------------------
+
+Mobile Computing :
+__________________
+
+1) Mobile computing is the ability to use computing capability without a pre-defined location and/or connection to a network to publish and/or subscribe to information.
+
+2) Clients are the mobile devices such as laptops, mobile phones.
+
+3) Not disturbuted. Hence mobile computing using web hosted serves will lost information on server damage.
+
+4) Screens and keyboards tend to be small, which may make them hard to use. Alternate input methods such as speech or handwriting recognition require training.
+
+5) As the communication medium works on common protocols such as HTTP, FTP, SMTP. Each device supports this features as pre-requisite.
+
+
+Cloud Computing : 
+__________________
+
+1) Cloud Computing is the ability to run a program or application on many connected computers(Individual virtual instance) at the same time over Internet.
+
+2) Clients are the devices which are connected through a communication network such as Internet.
+
+3) Are distributed and clustered, hence if one virtual server goes down, the daemon process trigger a new instance with same functionalities.
+
+4) By minimizing user involvement, automation speeds up the process and reduces the possibility of human errors.
+
+5) Each cloud systems uses different protocols and different APIs, as a result may not be possible to run applications between cloud based systems
